@@ -1,0 +1,24 @@
+{% extends "todo/base.html" %}
+
+{% block content %}
+<br>
+    <br>
+    <br>
+    <br>
+<div class="row justify-content-center mt-12">
+        <div class="col-md-12 text-center">
+
+                 <h1>AUTOMATED DOCTOR'S APPOINTMENT</h1>
+                 <hr>
+                 <br>
+            <p class="text-justify">
+
+                Register to in our portal for a doctor's appointment. Fill out the details correctly and book a slot you at your convenient time. At the booked slot time, just make sure to present yourself infront of the screen. The system will automatically recognize you and connect you to our doctor's online meet!
+            
+            </p>
+
+            <a role="button" class="btn btn-primary btn-lg" href="{% url 'loginuser' %}">Get Started</a>
+        </div>
+    </div>
+
+{% endblock %}

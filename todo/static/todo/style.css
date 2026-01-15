@@ -1,0 +1,11 @@
+body {
+     background-color: rgb(226, 246, 246);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    font-size: 1em !important;
+     color: #000 !important;
+     font-family: Arial !important;
+  }

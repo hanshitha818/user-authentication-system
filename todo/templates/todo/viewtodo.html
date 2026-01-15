@@ -1,0 +1,36 @@
+{% extends "todo/base.html" %}
+
+{% block content %}
+
+<head>
+    <meta http-equiv="refresh" content="15">
+  </head>
+<br>
+    <br>
+    <br>
+    <br>
+<div class="row justify-content-center mt-12">
+        <div class="col-md-12 text-center">
+
+                 <h1>WELCOME TO THE SYSTEM</h1>
+                 <hr>
+                 <br>
+            <p class="text-justify">
+
+                    YOU HAVE LOGGED IN SUCCESSFULLY.
+                
+            </p>
+            <form method="POST">
+            <div class="">
+                <label for="date" class=""> Date </label>
+                <input type="date" name="date" id="date" class=""/>
+            </div>
+            <div>
+                <button class="" onclick="">Book Appointment</button>
+              </div>
+            </form>
+            <a role="button" class="btn btn-primary btn-lg" href="{% url 'signupuser' %}">Get Started</a>
+        </div>
+    </div>
+
+{% endblock %}
